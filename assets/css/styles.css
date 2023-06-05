@@ -1230,7 +1230,6 @@ li {
 .footer__row {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* margin-left: 102px; */
     column-gap: 54px;
 }
 
