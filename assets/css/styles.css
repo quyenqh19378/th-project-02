@@ -18,6 +18,7 @@ body {
 body {
     font-size: 1.6rem;
     font-family: "Poppins", "Public Sans", sans-serif;
+    background: #efefef;
 }
 
 /* Common */
@@ -140,7 +141,6 @@ li {
 
 /* Hero */
 .hero {
-    background: #efefef;
 }
 
 .hero__inner {
@@ -319,8 +319,7 @@ li {
 
 /* Service */
 .service {
-    margin-top: 42px;
-    padding: 64px 0;
+    margin-top: 106px;
     font-family: "Poppins", sans-serif;
 }
 
@@ -456,8 +455,7 @@ li {
 
 /* About */
 .about {
-    padding: 64px 0;
-    margin-top: 29px;
+    padding-top: 125px;
 }
 
 .about__inner {
@@ -687,8 +685,8 @@ li {
 
 /* Process */
 .process {
-    padding-top: 64px;
-    margin-top: 41px;
+    margin-top: 79px;
+    padding-top: 36px;
 }
 
 .process__note {
@@ -744,6 +742,10 @@ li {
     border-bottom: 1px solid #83a17d;
     padding: 0 30px;
     transition: all 0.5s ease-in-out;
+}
+
+.process__item:first-child {
+    height: 185px;
 }
 
 .process__item:first-child .process__item-desc {
@@ -818,7 +820,7 @@ li {
 
 /* Project */
 .project {
-    margin-top: 84px;
+    margin-top: 148px;
     background: #143c3c;
     height: 889px;
 }
@@ -837,7 +839,6 @@ li {
 
 .project__title {
     position: relative;
-    margin-top: 20px;
     font-weight: 600;
     font-size: 4.2rem;
     line-height: 1.24;
@@ -872,7 +873,7 @@ li {
 .project__link {
     display: flex;
     align-items: center;
-    margin-top: 22px;
+    margin-top: 13px;
     column-gap: 26px;
 }
 
@@ -887,7 +888,7 @@ li {
 }
 
 .project__media {
-    margin-top: 65px;
+    margin-top: 72px;
     width: 1140px;
     height: 544px;
 }
@@ -912,8 +913,7 @@ li {
 
 /* Feature */
 .feature {
-    padding: 64px 0;
-    margin-top: 76px;
+    margin-top: 140px;
 }
 
 .feature__wrap {
@@ -988,8 +988,7 @@ li {
 /* Blog */
 
 .blog {
-    margin-top: 56px;
-    padding: 64px 0;
+    margin-top: 184px;
 }
 
 .blog__note {
@@ -1136,9 +1135,8 @@ li {
 
 /* Footer */
 .footer {
-    margin-top: 38px;
+    margin-top: 102px;
     padding-top: 72px;
-    padding-bottom: 200px;
     background: #143c3c;
 }
 
@@ -1256,4 +1254,17 @@ li {
 
 .footer__link:hover {
     text-decoration: underline;
+}
+
+.footer__copyright {
+    border-top: 1px solid #6a8383;
+    margin-top: 45px;
+}
+
+.footer__copyright-text {
+    padding: 28px 0;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    text-align: center;
+    color: #aab3ba;
 }
