@@ -1181,6 +1181,11 @@ li {
     background: transparent;
     border: none;
     padding: 0px 10px;
+    color: #fff;
+}
+
+.footer__form-btn:hover {
+    color: #83a17d;
 }
 
 .footer__socials {
